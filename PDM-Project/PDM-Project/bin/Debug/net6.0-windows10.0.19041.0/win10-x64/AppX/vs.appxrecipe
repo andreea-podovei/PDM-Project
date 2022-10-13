@@ -30,25 +30,25 @@
     <AppXManifest Include="C:\Users\radux\Source\Repos\PDM-Project\PDM-Project\PDM-Project\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-10-13T11:43:15.113</Modified>
+      <Modified>2022-10-13T14:00:10.795</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\radux\Source\Repos\PDM-Project\PDM-Project\PDM-Project\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-10-13T11:43:14.585</Modified>
+      <Modified>2022-10-13T14:00:10.302</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\radux\Source\Repos\PDM-Project\PDM-Project\PDM-Project\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\PDM-Project.runtimeconfig.json">
       <PackagePath>PDM-Project.runtimeconfig.json</PackagePath>
-      <Modified>2022-10-13T11:11:42.352</Modified>
+      <Modified>2022-10-13T14:00:10.048</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\radux\Source\Repos\PDM-Project\PDM-Project\PDM-Project\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\PDM-Project.dll">
       <PackagePath>PDM-Project.dll</PackagePath>
-      <Modified>2022-10-13T11:43:12.783</Modified>
+      <Modified>2022-10-13T14:00:08.241</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\radux\Source\Repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>PDM-Project.exe</PackagePath>
-      <Modified>2022-10-13T11:43:12.807</Modified>
+      <Modified>2022-10-13T14:00:08.267</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\radux\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.9\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1054,6 +1054,26 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
       <Modified>2022-07-19T16:53:02.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\radux\.nuget\packages\sqlite-net-pcl\1.8.116\lib\netstandard2.0\SQLite-net.dll">
+      <PackagePath>SQLite-net.dll</PackagePath>
+      <Modified>2021-09-02T21:04:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\radux\.nuget\packages\sqlitepclraw.bundle_green\2.0.4\lib\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll">
+      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
+      <Modified>2020-09-03T17:13:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\radux\.nuget\packages\sqlitepclraw.bundle_green\2.0.4\lib\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll">
+      <PackagePath>SQLitePCLRaw.nativelibrary.dll</PackagePath>
+      <Modified>2020-09-03T17:13:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\radux\.nuget\packages\sqlitepclraw.core\2.1.2\lib\netstandard2.0\SQLitePCLRaw.core.dll">
+      <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
+      <Modified>2022-09-18T19:26:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\radux\.nuget\packages\sqlitepclraw.provider.dynamic_cdecl\2.1.2\lib\netstandard2.0\SQLitePCLRaw.provider.dynamic_cdecl.dll">
+      <PackagePath>SQLitePCLRaw.provider.dynamic_cdecl.dll</PackagePath>
+      <Modified>2022-09-18T19:26:54.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\radux\.nuget\packages\microsoft.graphics.win2d\1.0.3.1\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
       <Modified>2022-04-28T15:57:10.000</Modified>
@@ -1062,9 +1082,13 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2022-07-19T16:53:02.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\radux\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.0.4\runtimes\win-x64\native\e_sqlite3.dll">
+      <PackagePath>e_sqlite3.dll</PackagePath>
+      <Modified>2020-08-17T14:38:20.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\radux\Source\Repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\PDM-Project.deps.json">
       <PackagePath>PDM-Project.deps.json</PackagePath>
-      <Modified>2022-10-13T11:43:14.862</Modified>
+      <Modified>2022-10-13T14:00:10.597</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\6.0.536\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

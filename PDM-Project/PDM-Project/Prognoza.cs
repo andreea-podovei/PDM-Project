@@ -9,6 +9,7 @@ namespace PDM_Project
 	public class Prognoza
 	{
 		public int Id { get; set; }	
+		public string Oras { get; set; }
 		public int Minim { get; set; }	
 		public int Maxim { get; set; }	
 		public string Descriere { get; set; }
