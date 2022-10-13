@@ -3,12 +3,24 @@
     x:Class="PDM_Project.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:PDM_Project"
-    Shell.FlyoutBehavior="Disabled">
+    xmlns:local="clr-namespace:PDM_Project">
 
-    <ShellContent
-        Title="Home"
+    <FlyoutItem Title="Pagina Start">
+        <ShellContent
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Cauta oras">
+        <ShellContent
+        ContentTemplate="{DataTemplate local:SearchPage}"
+        Route="ConvertorPage" />
+    </FlyoutItem>
+    
+    <FlyoutItem Title="Rezultatul cautarii">
+        <ShellContent
+        ContentTemplate="{DataTemplate local:ResultPage}"
+        Route="ConvertorPage" />
+    </FlyoutItem>
 
 </Shell>
