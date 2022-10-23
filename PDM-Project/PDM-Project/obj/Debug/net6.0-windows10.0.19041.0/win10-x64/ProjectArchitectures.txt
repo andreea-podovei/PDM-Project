@@ -1,1 +1,1 @@
-C:\Users\Andreea\Documents\MASTER\AN 2 - SEM 1\PDM-Project\PDM-Project\PDM-Project\PDM-Project.csproj;x64
+C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\PDM-Project.csproj;x64
