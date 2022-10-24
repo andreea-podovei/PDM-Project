@@ -16,6 +16,7 @@ namespace PDM_Project
 			string caleBd = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "prognozaMeteo.db");
 			conn = new SQLiteConnection(caleBd, false);
 			conn.CreateTable<Prognoza>();
+			
 		}
 
 		public int AdaugaPrognoza(Prognoza prognoza)
@@ -23,7 +24,7 @@ namespace PDM_Project
 			return conn.Insert(prognoza);
 		}
 
-		public int AdugaListaPrognoza(List<Prognoza> listaPrognoza)
+		public int AdaugaListaPrognoza(List<Prognoza> listaPrognoza)
 		{
 			return conn.InsertAll(listaPrognoza);
 		}

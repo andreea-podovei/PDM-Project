@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDM_Project.InputPage"
+             Title="InputPage">
+    <Grid RowDefinitions="*,*,*,*,*" Padding="8" RowSpacing="50" ColumnSpacing="8">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Label 
+            VerticalOptions="Center"
+            Text="Cauta oras"
+            Grid.ColumnSpan="2" />
+
+        <Picker 
+            x:Name="pickerOras"
+            ItemsSource="{Binding ListPrognoza}"
+            SelectedItem="{Binding PrognozaSursa}"
+            Grid.Row="1"
+            Grid.Column="1" />
+
+        <ListView       
+            x:Name="listViewPrognoza"
+            ItemSelected="listViewPrognoza_ItemSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <HorizontalStackLayout Padding="8">
+                            <Label VerticalOptions="Center" Text="{Binding Oras, StringFormat='{0} = '}"/>
+                        </HorizontalStackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <Button 
+            Text="Cauta"
+            Grid.Row="4"
+            Grid.ColumnSpan="2"
+            Command="{Binding SearchCommand}"/>
+    </Grid>
+</ContentPage>

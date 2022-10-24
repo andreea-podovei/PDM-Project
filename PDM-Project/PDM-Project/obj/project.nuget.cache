@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BTbnOSW11JtARnfaxxhkMAJc/0fFLUo73SeeaKJXPboww0UwdlTTogc8fwJd5M9P/6DF5ZR++ragXBvI9Ygl+g==",
+  "dgSpecHash": "12arGuZAlyHcLnjUhfiFD7+edMS+A0p4XibEVP7ZV+CYb7l/Dj3fdajV+GTiBaaGoxwpVOuSMultu9l1BLUbMg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\radux\\Source\\Repos\\PDM-Project\\PDM-Project\\PDM-Project\\PDM-Project.csproj",
+  "projectFilePath": "C:\\Users\\radux\\source\\repos\\PDM-Project-test\\PDM-Project\\PDM-Project\\PDM-Project.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\radux\\.nuget\\packages\\googlegson\\2.9.0.1\\googlegson.2.9.0.1.nupkg.sha512",
     "C:\\Users\\radux\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",

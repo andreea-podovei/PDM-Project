@@ -27515,11 +27515,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\radux\\Source\\Repos\\PDM-Project\\PDM-Project\\PDM-Project\\PDM-Project.csproj",
+      "projectUniqueName": "C:\\Users\\radux\\source\\repos\\PDM-Project-test\\PDM-Project\\PDM-Project\\PDM-Project.csproj",
       "projectName": "PDM-Project",
-      "projectPath": "C:\\Users\\radux\\Source\\Repos\\PDM-Project\\PDM-Project\\PDM-Project\\PDM-Project.csproj",
+      "projectPath": "C:\\Users\\radux\\source\\repos\\PDM-Project-test\\PDM-Project\\PDM-Project\\PDM-Project.csproj",
       "packagesPath": "C:\\Users\\radux\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\radux\\Source\\Repos\\PDM-Project\\PDM-Project\\PDM-Project\\obj\\",
+      "outputPath": "C:\\Users\\radux\\source\\repos\\PDM-Project-test\\PDM-Project\\PDM-Project\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

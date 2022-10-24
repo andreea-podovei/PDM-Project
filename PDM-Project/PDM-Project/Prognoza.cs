@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SQLite;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,7 @@ namespace PDM_Project
 {
 	public class Prognoza
 	{
+		[PrimaryKey, AutoIncrement]
 		public int Id { get; set; }	
 		public string Oras { get; set; }
 		public int Minim { get; set; }	
@@ -15,8 +17,14 @@ namespace PDM_Project
 		public string Descriere { get; set; }
 		public DateTime Data { get; set; }	
 
-		public Prognoza() {}
+		public Prognoza() {
+			
+		}
 
-		
+		public override string ToString()
+		{
+			return Oras;
+		}
+
 	}
 }

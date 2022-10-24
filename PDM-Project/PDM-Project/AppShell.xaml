@@ -5,22 +5,64 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:PDM_Project">
 
-    <FlyoutItem Title="Pagina Start">
+    <FlyoutItem Title="Meteo">
         <ShellContent
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
     </FlyoutItem>
 
-    <FlyoutItem Title="Cauta oras">
+    <FlyoutItem Title="Filtrare vreme">
         <ShellContent
-        ContentTemplate="{DataTemplate local:SearchPage}"
-        Route="ConvertorPage" />
+        ContentTemplate="{DataTemplate local:InputPage}"
+        Route="InputPage" />
     </FlyoutItem>
-    
-    <FlyoutItem Title="Rezultatul cautarii">
+
+    <FlyoutItem Title="Afisare vreme">
         <ShellContent
-        ContentTemplate="{DataTemplate local:ResultPage}"
-        Route="ConvertorPage" />
+        ContentTemplate="{DataTemplate local:OutputPage}"
+        Route="OutputPage" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Vremea astazi">
+        <ShellContent
+        ContentTemplate="{DataTemplate local:MeteoTodayPage}"
+        Route="MeteoToday" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Recorduri">
+        <ShellContent
+        ContentTemplate="{DataTemplate local:RecordsPage}"
+        Route="RecordsPage" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Date statistice">
+        <ShellContent
+        ContentTemplate="{DataTemplate local:StatisticsPage}"
+        Route="StatisticsPage" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Prognoza">
+        <ShellContent
+        ContentTemplate="{DataTemplate local:ForecastPage}"
+        Route="ForecastPage" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Sugestii">
+        <ShellContent
+        ContentTemplate="{DataTemplate local:SuggestionsPage}"
+        Route="SuggestionsPage" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Grafic">
+        <ShellContent
+        ContentTemplate="{DataTemplate local:GraphicPage}"
+        Route="GraphicPage" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Despre">
+        <ShellContent
+        ContentTemplate="{DataTemplate local:AboutPage}"
+        Route="AboutPage" />
     </FlyoutItem>
 
 </Shell>

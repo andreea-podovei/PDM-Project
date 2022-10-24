@@ -27,7 +27,7 @@ namespace PDM_Project
 				if (xmlReader.IsStartElement())
 				{
 					if (xmlReader.Name == "localitate nume")
-					{
+					{						
 						Prognoza prognoza = new Prognoza();
 						prognoza.Oras = xmlReader["localitate nume"];
 

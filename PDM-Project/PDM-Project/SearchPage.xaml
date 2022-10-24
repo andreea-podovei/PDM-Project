@@ -21,6 +21,20 @@
             Grid.Row="1"
             Grid.Column="1" />
 
+        <ListView       
+            x:Name="listViewPrognoza"
+            ItemSelected="listViewPrognoza_ItemSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <HorizontalStackLayout Padding="8">
+                            <Label VerticalOptions="Center" Text="{Binding Oras, StringFormat='{0} = '}"/>
+                        </HorizontalStackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
         <Button 
             Text="Cauta"
             Grid.Row="4"
