@@ -27,7 +27,6 @@
                 SemanticProperties.Description="Check all you need about weather"
                 FontSize="18"
                 HorizontalOptions="Center" />
-
         </VerticalStackLayout>
     </ScrollView>
 

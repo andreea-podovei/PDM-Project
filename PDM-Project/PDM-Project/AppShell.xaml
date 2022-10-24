@@ -64,4 +64,5 @@
         ContentTemplate="{DataTemplate local:AboutPage}"
         Route="AboutPage" />
     </FlyoutItem>
+
 </Shell>

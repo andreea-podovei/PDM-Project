@@ -3,10 +3,49 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PDM_Project.InputPage"
              Title="InputPage">
-    <VerticalStackLayout>
+    <Grid RowDefinitions="*,*,*,*,*" Padding="8" RowSpacing="50" ColumnSpacing="8">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
         <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+            VerticalOptions="Center"
+            Text="Cauta oras"
+            Grid.ColumnSpan="2" />
+
+        <!--   <Picker 
+            x:Name="pickerOras"
+            ItemsSource="{Binding ListPrognoza}"
+            SelectedItem="{Binding PrognozaSursa}"
+            Grid.Row="1"/> -->
+
+        <Entry 
+            x:Name="entryValoare"
+            Text="{Binding Valoare}"
+            Grid.Row="1"
+            Keyboard="Text"/>
+
+        <ListView       
+            x:Name="listViewPrognoza"
+            ItemSelected="listViewPrognoza_ItemSelected"
+            Grid.Row="2"
+             Grid.RowSpan="3">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <HorizontalStackLayout Padding="8">
+                            <Label VerticalOptions="Center"/>
+                        </HorizontalStackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <Button 
+            Text="Cauta"
+            Grid.Row="4"
+            Grid.ColumnSpan="2"
+            Command="{Binding SearchCommand}"/>
+    </Grid>
 </ContentPage>
