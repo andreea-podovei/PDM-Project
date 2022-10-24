@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "kRhzlipBttPyoW3OkAn7+7YCpHr//Cv1Mff12iO/dsAmJDGI5jLdgjlHyNtJ1iXN2kQJD8tZv1oG4YMh/KXxkQ==",
+=======
+  "dgSpecHash": "1Tcnip4QKmtVCzmS+2JXSxPNNRWXfW9bEtPbWjiDwLziABIBMFu4TUYd16tvBTtD/pPGYv17JtRy4ihCvlTjuw==",
+>>>>>>> Stashed changes
   "success": true,
   "projectFilePath": "C:\\Users\\Andreea\\Documents\\MASTER\\AN 2 - SEM 1\\PDM-Project\\PDM-Project\\PDM-Project\\PDM-Project.csproj",
   "expectedPackageFiles": [
@@ -20,7 +24,20 @@
     "C:\\Users\\Andreea\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\6.0.403\\microsoft.maui.graphics.win2d.winui.desktop.6.0.403.nupkg.sha512",
     "C:\\Users\\Andreea\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22000.194\\microsoft.windows.sdk.buildtools.10.0.22000.194.nupkg.sha512",
     "C:\\Users\\Andreea\\.nuget\\packages\\microsoft.windowsappsdk\\1.1.3\\microsoft.windowsappsdk.1.1.3.nupkg.sha512",
+<<<<<<< Updated upstream
     "C:\\Users\\Andreea\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+=======
+    "C:\\Users\\Andreea\\.nuget\\packages\\sqlite-net-pcl\\1.8.116\\sqlite-net-pcl.1.8.116.nupkg.sha512",
+    "C:\\Users\\Andreea\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.4\\sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",
+    "C:\\Users\\Andreea\\.nuget\\packages\\sqlitepclraw.core\\2.1.2\\sqlitepclraw.core.2.1.2.nupkg.sha512",
+    "C:\\Users\\Andreea\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.4\\sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512",
+    "C:\\Users\\Andreea\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3.android\\2.0.4\\sqlitepclraw.lib.e_sqlite3.android.2.0.4.nupkg.sha512",
+    "C:\\Users\\Andreea\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.1.2\\sqlitepclraw.provider.dynamic_cdecl.2.1.2.nupkg.sha512",
+    "C:\\Users\\Andreea\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.0.4\\sqlitepclraw.provider.e_sqlite3.2.0.4.nupkg.sha512",
+    "C:\\Users\\Andreea\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\Andreea\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\Andreea\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+>>>>>>> Stashed changes
     "C:\\Users\\Andreea\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\Andreea\\.nuget\\packages\\system.runtime.interopservices.nfloat.internal\\6.0.1\\system.runtime.interopservices.nfloat.internal.6.0.1.nupkg.sha512",
     "C:\\Users\\Andreea\\.nuget\\packages\\xamarin.android.glide\\4.12.0.8\\xamarin.android.glide.4.12.0.8.nupkg.sha512",
