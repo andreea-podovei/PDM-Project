@@ -26,32 +26,44 @@ namespace PDM_Project
 			{
 				if (xmlReader.IsStartElement())
 				{
-					if (xmlReader.Name == "localitate nume")
+					Prognoza prognoza = new Prognoza();
+					if (xmlReader.Name == "localitate")
 					{						
-						Prognoza prognoza = new Prognoza();
-						prognoza.Oras = xmlReader["localitate nume"];
-
-						if (xmlReader.Name == "prognoza data")
-						{
-							data = DateTime.Parse(xmlReader["prognoza data"]);
-
-
-							if (xmlReader.Name == "temp_min unit")
-							{
-								prognoza.Minim = int.Parse(xmlReader["temp_min unit"]);
-							}
-							
-							if (xmlReader.Name == "temp_max unit")
-							{
-								prognoza.Maxim = int.Parse(xmlReader["temp_max unit"]);
-							}
-
-						}
-
-						prognoza.Data = data;
-
-						listaPrognoza.Add(prognoza);
+						prognoza.Oras = xmlReader["nume"];
+						System.Diagnostics.Debug.WriteLine(prognoza.Oras);
+					}	
+					if (xmlReader.Name == "prognoza")
+					{
+					data = DateTime.Parse(xmlReader["data"]);
+						System.Diagnostics.Debug.WriteLine(data);
 					}
+
+					if (xmlReader.Name == "temp_min")
+					{
+						await xmlReader.ReadAsync();
+						prognoza.Minim = int.Parse(xmlReader.Value, System.Globalization.CultureInfo.InvariantCulture);
+						System.Diagnostics.Debug.WriteLine(prognoza.Minim);
+					}
+
+					if (xmlReader.Name == "temp_max")
+					{
+						await xmlReader.ReadAsync();					
+						prognoza.Maxim = int.Parse(xmlReader.Value, System.Globalization.CultureInfo.InvariantCulture);
+						System.Diagnostics.Debug.WriteLine(prognoza.Maxim);
+					}
+					
+					if (xmlReader.Name == "fenomen_descriere")
+					{
+						await xmlReader.ReadAsync();
+						prognoza.Descriere = xmlReader.Value;
+						System.Diagnostics.Debug.WriteLine(prognoza.Descriere);
+					}
+
+
+					prognoza.Data = data;
+
+					listaPrognoza.Add(prognoza);
+					
 				}
 			}
 

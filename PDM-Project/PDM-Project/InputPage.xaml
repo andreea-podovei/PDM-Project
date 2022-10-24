@@ -14,21 +14,28 @@
             Text="Cauta oras"
             Grid.ColumnSpan="2" />
 
-        <Picker 
+        <!--   <Picker 
             x:Name="pickerOras"
             ItemsSource="{Binding ListPrognoza}"
             SelectedItem="{Binding PrognozaSursa}"
+            Grid.Row="1"/> -->
+
+        <Entry 
+            x:Name="entryValoare"
+            Text="{Binding Valoare}"
             Grid.Row="1"
-            Grid.Column="1" />
+            Keyboard="Text"/>
 
         <ListView       
             x:Name="listViewPrognoza"
-            ItemSelected="listViewPrognoza_ItemSelected">
+            ItemSelected="listViewPrognoza_ItemSelected"
+            Grid.Row="2"
+             Grid.RowSpan="3">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
                         <HorizontalStackLayout Padding="8">
-                            <Label VerticalOptions="Center" Text="{Binding Oras, StringFormat='{0} = '}"/>
+                            <Label VerticalOptions="Center"/>
                         </HorizontalStackLayout>
                     </ViewCell>
                 </DataTemplate>

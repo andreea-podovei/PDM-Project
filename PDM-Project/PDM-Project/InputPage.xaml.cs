@@ -11,7 +11,7 @@ public partial class InputPage : ContentPage
 
 		BindingContext = new InputPageViewModel();
 
-		pickerOras.SelectedIndex = 0;
+		//pickerOras.SelectedIndex = 0;
 		listViewPrognoza.ItemsSource = listaPrognoza;
 	}
 	protected override async void OnAppearing()

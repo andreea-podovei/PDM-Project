@@ -16,9 +16,8 @@ namespace PDM_Project
 			string caleBd = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "prognozaMeteo.db");
 			conn = new SQLiteConnection(caleBd, false);
 			conn.CreateTable<Prognoza>();
-			
+		
 		}
-
 		public int AdaugaPrognoza(Prognoza prognoza)
 		{
 			return conn.Insert(prognoza);
@@ -36,7 +35,8 @@ namespace PDM_Project
 
 		public List<Prognoza> ObtinePrognozaDinData(DateTime data)
 		{
-			return conn.Query<Prognoza>("SELECT * FROM Prognoza WHERE date(Data) = ?", data.ToString("yyyy-MM-dd"));
+			//return conn.Query<Prognoza>("SELECT * FROM Prognoza WHERE date(Data) = ?", data.ToString("yyyy-MM-dd"));
+			return conn.Query<Prognoza>("SELECT * FROM Prognoza WHERE data = ?", data.ToString("yyyy-MM-dd"));
 		}
 	}
 }

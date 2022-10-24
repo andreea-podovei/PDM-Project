@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>4894DCA1-D88E-44F9-986B-A13C6FACE9A8</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>
     </WindowsSdkPath>
-    <LayoutDir>C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
     <RegisteredManifestChecksum>F1CD417C82A7EDC02C2F76D12F4E232167779D679377FC5835554744ABE3D0CF</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>4894DCA1-D88E-44F9-986B-A13C6FACE9A8_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>4894DCA1-D88E-44F9-986B-A13C6FACE9A8_9zz4h110yvjzm!App</RegisteredUserModeAppID>
@@ -27,28 +27,28 @@
     <RegisteredVersion>1.0.0.1</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-10-24T12:52:05.374</Modified>
+      <Modified>2022-10-24T15:16:29.233</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-10-24T12:52:04.817</Modified>
+      <Modified>2022-10-24T15:16:28.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\PDM-Project.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\PDM-Project.runtimeconfig.json">
       <PackagePath>PDM-Project.runtimeconfig.json</PackagePath>
-      <Modified>2022-10-24T12:52:04.532</Modified>
+      <Modified>2022-10-24T13:29:11.697</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\PDM-Project.dll">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\PDM-Project.dll">
       <PackagePath>PDM-Project.dll</PackagePath>
-      <Modified>2022-10-24T12:52:02.501</Modified>
+      <Modified>2022-10-24T15:16:27.201</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>PDM-Project.exe</PackagePath>
-      <Modified>2022-10-24T12:52:02.531</Modified>
+      <Modified>2022-10-24T15:16:27.210</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\radux\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.9\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1086,9 +1086,9 @@
       <PackagePath>e_sqlite3.dll</PackagePath>
       <Modified>2020-08-17T14:38:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\PDM-Project.deps.json">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\PDM-Project.deps.json">
       <PackagePath>PDM-Project.deps.json</PackagePath>
-      <Modified>2022-10-24T12:52:05.134</Modified>
+      <Modified>2022-10-24T15:16:29.014</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\6.0.536\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -1102,199 +1102,199 @@
       <PackagePath>Microsoft.Maui.pri</PackagePath>
       <Modified>2022-09-08T23:30:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
       <Modified>2022-10-13T11:10:54.378</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
       <Modified>2022-10-13T11:11:39.958</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
       <Modified>2022-10-13T11:11:39.974</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
       <Modified>2022-10-13T11:11:39.996</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
       <Modified>2022-10-13T11:11:40.031</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
       <Modified>2022-10-13T11:11:40.155</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
       <Modified>2022-10-13T11:10:54.374</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
       <Modified>2022-10-13T11:10:54.376</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
       <Modified>2022-10-24T12:52:01.899</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
       <Modified>2022-10-24T12:52:02.117</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
       <Modified>2022-10-24T12:52:02.130</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
       <Modified>2022-10-24T12:52:02.141</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
       <Modified>2022-10-24T12:52:02.160</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
       <Modified>2022-10-24T12:52:02.232</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
       <Modified>2022-10-24T12:52:01.911</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
       <Modified>2022-10-24T12:52:01.917</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
       <Modified>2022-10-24T12:52:01.923</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
       <Modified>2022-10-24T12:52:01.929</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
       <Modified>2022-10-24T12:52:01.937</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
       <Modified>2022-10-24T12:52:01.994</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
       <Modified>2022-10-24T12:52:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
       <Modified>2022-10-24T12:52:02.007</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
       <Modified>2022-10-24T12:52:02.016</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
       <Modified>2022-10-24T12:52:02.033</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
       <Modified>2022-10-24T12:52:01.967</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
       <Modified>2022-10-24T12:52:01.971</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
       <Modified>2022-10-24T12:52:01.975</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
       <Modified>2022-10-24T12:52:01.980</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
       <Modified>2022-10-24T12:52:01.989</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
       <Modified>2022-10-24T12:52:01.942</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
       <Modified>2022-10-24T12:52:01.946</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
       <Modified>2022-10-24T12:52:01.950</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
       <Modified>2022-10-24T12:52:01.955</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
       <Modified>2022-10-24T12:52:01.962</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
       <Modified>2022-10-24T12:52:02.041</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
       <Modified>2022-10-24T12:52:02.048</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
       <Modified>2022-10-24T12:52:02.058</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
       <Modified>2022-10-24T12:52:02.073</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
       <Modified>2022-10-24T12:52:02.107</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
       <Modified>2022-10-24T12:52:01.895</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
       <Modified>2022-10-24T12:52:01.908</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
       <Modified>2022-10-24T12:52:01.930</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
       <Modified>2022-10-24T12:52:01.953</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
       <Modified>2022-10-24T12:52:02.003</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather.scale-100.png">
       <PackagePath>weather.scale-100.png</PackagePath>
       <Modified>2022-10-22T05:42:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather.scale-125.png">
       <PackagePath>weather.scale-125.png</PackagePath>
       <Modified>2022-10-24T12:52:01.895</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather.scale-150.png">
       <PackagePath>weather.scale-150.png</PackagePath>
       <Modified>2022-10-24T12:52:01.905</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather.scale-200.png">
       <PackagePath>weather.scale-200.png</PackagePath>
       <Modified>2022-10-24T12:52:01.920</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project-test\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather.scale-400.png">
       <PackagePath>weather.scale-400.png</PackagePath>
       <Modified>2022-10-24T12:52:01.964</Modified>
     </AppxPackagedFile>
