@@ -7,87 +7,87 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PDM_Project
-build_property.ProjectDir = C:\Users\radux\source\repos\PDM-Project\PDM-Project\PDM-Project\
+build_property.ProjectDir = C:\Users\IULIA\Desktop\PDM-Project\PDM-Project\PDM-Project\
 
-[C:/Users/radux/source/repos/PDM-Project/PDM-Project/PDM-Project/AboutPage.xaml]
+[C:/Users/IULIA/Desktop/PDM-Project/PDM-Project/PDM-Project/AboutPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PDM_Project.AboutPage.xaml
 build_metadata.AdditionalFiles.TargetPath = AboutPage.xaml
 build_metadata.AdditionalFiles.RelativePath = AboutPage.xaml
 
-[C:/Users/radux/source/repos/PDM-Project/PDM-Project/PDM-Project/App.xaml]
+[C:/Users/IULIA/Desktop/PDM-Project/PDM-Project/PDM-Project/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PDM_Project.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/radux/source/repos/PDM-Project/PDM-Project/PDM-Project/AppShell.xaml]
+[C:/Users/IULIA/Desktop/PDM-Project/PDM-Project/PDM-Project/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PDM_Project.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/radux/source/repos/PDM-Project/PDM-Project/PDM-Project/ForecastPage.xaml]
+[C:/Users/IULIA/Desktop/PDM-Project/PDM-Project/PDM-Project/ForecastPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PDM_Project.ForecastPage.xaml
 build_metadata.AdditionalFiles.TargetPath = ForecastPage.xaml
 build_metadata.AdditionalFiles.RelativePath = ForecastPage.xaml
 
-[C:/Users/radux/source/repos/PDM-Project/PDM-Project/PDM-Project/GraphicPage.xaml]
+[C:/Users/IULIA/Desktop/PDM-Project/PDM-Project/PDM-Project/GraphicPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PDM_Project.GraphicPage.xaml
 build_metadata.AdditionalFiles.TargetPath = GraphicPage.xaml
 build_metadata.AdditionalFiles.RelativePath = GraphicPage.xaml
 
-[C:/Users/radux/source/repos/PDM-Project/PDM-Project/PDM-Project/InputPage.xaml]
+[C:/Users/IULIA/Desktop/PDM-Project/PDM-Project/PDM-Project/InputPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PDM_Project.InputPage.xaml
 build_metadata.AdditionalFiles.TargetPath = InputPage.xaml
 build_metadata.AdditionalFiles.RelativePath = InputPage.xaml
 
-[C:/Users/radux/source/repos/PDM-Project/PDM-Project/PDM-Project/MainPage.xaml]
+[C:/Users/IULIA/Desktop/PDM-Project/PDM-Project/PDM-Project/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PDM_Project.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/radux/source/repos/PDM-Project/PDM-Project/PDM-Project/MeteoTodayPage.xaml]
+[C:/Users/IULIA/Desktop/PDM-Project/PDM-Project/PDM-Project/MeteoTodayPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PDM_Project.MeteoTodayPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MeteoTodayPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MeteoTodayPage.xaml
 
-[C:/Users/radux/source/repos/PDM-Project/PDM-Project/PDM-Project/OutputPage.xaml]
+[C:/Users/IULIA/Desktop/PDM-Project/PDM-Project/PDM-Project/OutputPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PDM_Project.OutputPage.xaml
 build_metadata.AdditionalFiles.TargetPath = OutputPage.xaml
 build_metadata.AdditionalFiles.RelativePath = OutputPage.xaml
 
-[C:/Users/radux/source/repos/PDM-Project/PDM-Project/PDM-Project/RecordsPage.xaml]
+[C:/Users/IULIA/Desktop/PDM-Project/PDM-Project/PDM-Project/RecordsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PDM_Project.RecordsPage.xaml
 build_metadata.AdditionalFiles.TargetPath = RecordsPage.xaml
 build_metadata.AdditionalFiles.RelativePath = RecordsPage.xaml
 
-[C:/Users/radux/source/repos/PDM-Project/PDM-Project/PDM-Project/Resources/Styles/Colors.xaml]
+[C:/Users/IULIA/Desktop/PDM-Project/PDM-Project/PDM-Project/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PDM_Project.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/radux/source/repos/PDM-Project/PDM-Project/PDM-Project/Resources/Styles/Styles.xaml]
+[C:/Users/IULIA/Desktop/PDM-Project/PDM-Project/PDM-Project/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PDM_Project.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/radux/source/repos/PDM-Project/PDM-Project/PDM-Project/StatisticsPage.xaml]
+[C:/Users/IULIA/Desktop/PDM-Project/PDM-Project/PDM-Project/StatisticsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PDM_Project.StatisticsPage.xaml
 build_metadata.AdditionalFiles.TargetPath = StatisticsPage.xaml
 build_metadata.AdditionalFiles.RelativePath = StatisticsPage.xaml
 
-[C:/Users/radux/source/repos/PDM-Project/PDM-Project/PDM-Project/SuggestionsPage.xaml]
+[C:/Users/IULIA/Desktop/PDM-Project/PDM-Project/PDM-Project/SuggestionsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PDM_Project.SuggestionsPage.xaml
 build_metadata.AdditionalFiles.TargetPath = SuggestionsPage.xaml
