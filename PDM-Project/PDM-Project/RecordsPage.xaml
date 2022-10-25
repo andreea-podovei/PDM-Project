@@ -5,8 +5,53 @@
              Title="RecordsPage">
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="Recorduri înregistrate"
             VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            HorizontalOptions="Center"
+            FontSize="28"
+            Margin="0, 0, 0, 20"
+            />
+
+        <Image
+                Source="lowtemperature.png"
+                SemanticProperties.Description="low-temp"
+                HeightRequest="100"
+                HorizontalOptions="Center"
+                Margin="0,0,0,15"
+               
+            />
+
+        <Button
+                Text="Cea mai mică temperatură "
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="20"
+                Margin="0, 0, 0, 50"
+                BackgroundColor="Azure"
+                TextColor="Black"
+                HorizontalOptions="Center"
+                Clicked="Button_Clicked1"
+            />
+
+        <Image
+                Source="hightemperature.png"
+                SemanticProperties.Description="high-temp"
+                HeightRequest="100"
+                HorizontalOptions="Center"
+                Margin="0,0,0,15"/>
+        <Button
+                Text="Cea mai mare temperatură "
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="20"
+                Margin="0, 0, 0, 5 "
+                BackgroundColor="Azure"
+                TextColor="Black"
+                HorizontalOptions="Center"
+                Clicked="Button_Clicked2"
+                />
+                
+
     </VerticalStackLayout>
+    
+    
+    
 </ContentPage>
