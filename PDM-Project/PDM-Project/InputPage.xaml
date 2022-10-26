@@ -14,17 +14,11 @@
             Text="Cauta oras"
             Grid.ColumnSpan="2" />
 
-        <!--   <Picker 
+           <Picker 
             x:Name="pickerOras"
             ItemsSource="{Binding ListPrognoza}"
             SelectedItem="{Binding PrognozaSursa}"
-            Grid.Row="1"/> -->
-
-        <Entry 
-            x:Name="entryValoare"
-            Text="{Binding Valoare}"
-            Grid.Row="1"
-            Keyboard="Text"/>
+            Grid.Row="1"/> 
 
         <ListView       
             x:Name="listViewPrognoza"
@@ -35,7 +29,11 @@
                 <DataTemplate>
                     <ViewCell>
                         <HorizontalStackLayout Padding="8">
-                            <Label VerticalOptions="Center"/>
+                            <Label VerticalOptions="Center" Text="{Binding Oras}"/>
+                            <Label VerticalOptions="Center" Text="{Binding Data, StringFormat='{0}'}"/>
+                            <Label VerticalOptions="Center" Text="{Binding Minim, StringFormat='{0}'}"/>
+                            <Label VerticalOptions="Center" Text="{Binding Maxim, StringFormat='{0}'}"/>
+                            <Label VerticalOptions="Center" Text="{Binding Descriere}"/>
                         </HorizontalStackLayout>
                     </ViewCell>
                 </DataTemplate>

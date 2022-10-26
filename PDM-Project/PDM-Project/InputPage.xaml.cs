@@ -10,8 +10,7 @@ public partial class InputPage : ContentPage
 		InitializeComponent();
 
 		BindingContext = new InputPageViewModel();
-
-		//pickerOras.SelectedIndex = 0;
+		pickerOras.SelectedIndex = 0;
 		listViewPrognoza.ItemsSource = listaPrognoza;
 	}
 	protected override async void OnAppearing()
@@ -19,8 +18,10 @@ public partial class InputPage : ContentPage
 		DaoPrognoza daoPrognoza = new DaoPrognoza();
 		if (!prognozaInitializat)
 		{
-			listaPrognoza = daoPrognoza.ObtinePrognozaDinData(DateTime.Parse("2022-10-13"));
+			//listaPrognoza = daoPrognoza.ObtinePrognozaDinData(DateTime.Parse("2022-10-13"));
+			listaPrognoza = daoPrognoza.ObtineToateInregistrarile();
 			prognozaInitializat = true;
+
 		}
 
 		if (listaPrognoza.Count == 0)
@@ -28,14 +29,28 @@ public partial class InputPage : ContentPage
 			listaPrognoza = await ServiciuPrognoza.PreiaPrognoza();
 			daoPrognoza.AdaugaListaPrognoza(listaPrognoza);
 
+			for (int i = 1; i <= listaPrognoza.Count; i++)
+			{
+				foreach (PrognozaPeZi prognozaPeZi in listaPrognoza[i - 1])
+				{
+					prognozaPeZi.Id = listaPrognoza[i - 1].Id;
+				}
+			}
+
+			foreach (Prognoza prognoza in listaPrognoza)
+			{
+				daoPrognoza.AdaugaListaPrognozaPeZi(prognoza.PrognozaPeZi);				
+			}
+
+		
 		}
 
 		listViewPrognoza.ItemsSource = listaPrognoza;
-
 	}
 
 	private void listViewPrognoza_ItemSelected(object sender, SelectedItemChangedEventArgs e)
 	{
 		DisplayAlert("Info", e.SelectedItem.ToString(), "OK");
+	
 	}
 }
