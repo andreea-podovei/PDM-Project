@@ -5,12 +5,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
+using System.Diagnostics;
 
 namespace PDM_Project
 {
 	public class ServiciuPrognoza
 	{
-		public static async Task<List<Prognoza>> PreiaPrognoza()
+        public static async Task<List<Prognoza>> PreiaPrognoza()
 		{
 			List<Prognoza> listaPrognoza = new List<Prognoza>();
 			XmlReaderSettings settings = new XmlReaderSettings()
@@ -18,56 +19,77 @@ namespace PDM_Project
 				Async = true
 			};
 
-			XmlReader xmlReader = XmlReader.Create("file:///C:/Users/radux/OneDrive/Desktop/prognoza-orase-5zile%20(1).xml", settings);
+			Debug.WriteLine("In serviciu prognoza");
 
-			DateTime data = DateTime.Now;
+			XmlReader xmlReader = XmlReader.Create("file:///C:/Users/Marisa/Desktop/prognoza-orase-5zile.xml", settings);
 
-			while (await xmlReader.ReadAsync())
-			{
-				if (xmlReader.IsStartElement())
-				{
-					Prognoza prognoza = new Prognoza();
-					if (xmlReader.Name == "localitate")
-					{						
-						prognoza.Oras = xmlReader["nume"];
-						System.Diagnostics.Debug.WriteLine(prognoza.Oras);
-					}	
-					if (xmlReader.Name == "prognoza")
-					{
-					data = DateTime.Parse(xmlReader["data"]);
-						System.Diagnostics.Debug.WriteLine(data);
-					}
+            while (await xmlReader.ReadAsync())
+            {
+                if (xmlReader.IsStartElement())
+                {
+                    
+                    
+                    if (xmlReader.Name == "localitate")
+                    {
+                        Prognoza prognoza = new Prognoza();
+                        prognoza.PrognozaPeZi = new List<PrognozaPeZi>();
 
-					if (xmlReader.Name == "temp_min")
-					{
-						await xmlReader.ReadAsync();
-						prognoza.Minim = int.Parse(xmlReader.Value, System.Globalization.CultureInfo.InvariantCulture);
-						System.Diagnostics.Debug.WriteLine(prognoza.Minim);
-					}
+                        prognoza.Oras = xmlReader["nume"];
+                        Debug.WriteLine(xmlReader["nume"]);
 
-					if (xmlReader.Name == "temp_max")
-					{
-						await xmlReader.ReadAsync();					
-						prognoza.Maxim = int.Parse(xmlReader.Value, System.Globalization.CultureInfo.InvariantCulture);
-						System.Diagnostics.Debug.WriteLine(prognoza.Maxim);
-					}
-					
-					if (xmlReader.Name == "fenomen_descriere")
-					{
-						await xmlReader.ReadAsync();
-						prognoza.Descriere = xmlReader.Value;
-						System.Diagnostics.Debug.WriteLine(prognoza.Descriere);
-					}
+                        XmlReader innerReader = xmlReader.ReadSubtree();
 
+                        innerReader.ReadToFollowing("DataPrognozei");
+                        await innerReader.ReadAsync();
+                        //Debug.WriteLine(inner.Value);
+                        prognoza.DataPrognoza = DateTime.Parse(innerReader.Value);
+                        Debug.WriteLine(prognoza.DataPrognoza);
 
-					prognoza.Data = data;
+                        while (innerReader.ReadToFollowing("prognoza"))
+                        {
+                            PrognozaPeZi prognozaPeZi = new PrognozaPeZi();
+                            
+                            Debug.WriteLine(innerReader.Name);
+                            prognozaPeZi.Data = DateTime.Parse(innerReader["data"]);
+                            Debug.WriteLine(prognozaPeZi.Data);
 
-					listaPrognoza.Add(prognoza);
-					
-				}
-			}
+                            innerReader.ReadToDescendant("temp_min");
+                            Debug.WriteLine(innerReader.Name);
+                            await innerReader.ReadAsync();
+                            int temp_min = int.Parse(innerReader.Value, System.Globalization.CultureInfo.InvariantCulture);
+                            Debug.WriteLine(temp_min);
+                            prognozaPeZi.Temp_min = temp_min;
 
-			return listaPrognoza;
-		}
-	}
+                            innerReader.ReadToFollowing("temp_max");
+                            Debug.WriteLine(innerReader.Name);
+                            await innerReader.ReadAsync();
+                            int temp_max = int.Parse(innerReader.Value, System.Globalization.CultureInfo.InvariantCulture);
+                            Debug.WriteLine(temp_max);
+                            prognozaPeZi.Temp_max = temp_max;
+
+                            innerReader.ReadToFollowing("fenomen_descriere");
+                            Debug.WriteLine(innerReader.Name);
+                            await innerReader.ReadAsync();
+                            string descriere = innerReader.Value;
+                            Debug.WriteLine(descriere);
+                            prognozaPeZi.Descriere = descriere;
+
+                            prognoza.PrognozaPeZi.Add(prognozaPeZi);
+                        }
+
+                        listaPrognoza.Add(prognoza);
+                        innerReader.Close();
+                    }
+
+                }
+                
+
+            }
+
+            xmlReader.Close();
+
+            return listaPrognoza;
+        }
+     
+    }
 }

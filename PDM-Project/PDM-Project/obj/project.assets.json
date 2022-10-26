@@ -27509,24 +27509,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\radux\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Marisa\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\radux\\source\\repos\\PDM-Project\\PDM-Project\\PDM-Project\\PDM-Project.csproj",
+      "projectUniqueName": "C:\\Users\\Marisa\\Desktop\\Aplicatie vreme maui\\PDM-Project\\PDM-Project\\PDM-Project\\PDM-Project.csproj",
       "projectName": "PDM-Project",
-      "projectPath": "C:\\Users\\radux\\source\\repos\\PDM-Project\\PDM-Project\\PDM-Project\\PDM-Project.csproj",
-      "packagesPath": "C:\\Users\\radux\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\radux\\source\\repos\\PDM-Project\\PDM-Project\\PDM-Project\\obj\\",
+      "projectPath": "C:\\Users\\Marisa\\Desktop\\Aplicatie vreme maui\\PDM-Project\\PDM-Project\\PDM-Project\\PDM-Project.csproj",
+      "packagesPath": "C:\\Users\\Marisa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Marisa\\Desktop\\Aplicatie vreme maui\\PDM-Project\\PDM-Project\\PDM-Project\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\radux\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Marisa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

@@ -6,6 +6,10 @@ public partial class MainPage : ContentPage
 	{
 		InitializeComponent();
 	}
-	
+
+    private void RecordsPageToolbarItem_Clicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new RecordsPage());
+    }
 }
 
