@@ -17,8 +17,12 @@
                     <ViewCell>
 
                         <HorizontalStackLayout Padding="8">
-                           
-                            <Label Text="{Binding .}" VerticalOptions="Center" HorizontalOptions="Center"/>
+
+
+
+                            <Image Source="{Binding ResursaFenomen}" WidthRequest="65"/>
+
+                            <Label Text="{Binding FenomenDescriere}" VerticalOptions="Center" HorizontalOptions="Center"/>
                         
 
                         </HorizontalStackLayout>

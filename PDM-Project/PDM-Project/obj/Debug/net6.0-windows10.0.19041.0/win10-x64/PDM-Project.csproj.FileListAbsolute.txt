@@ -706,3 +706,4 @@ C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project
 C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\e_sqlite3.dll
 C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\lowtemperature.scale-100.png
 C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\hightemperature.scale-100.png
+C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\cervariabil.scale-100.png

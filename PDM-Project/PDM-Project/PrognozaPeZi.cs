@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using SQLite;
 namespace PDM_Project
 {
     public class PrognozaPeZi
@@ -22,5 +22,14 @@ namespace PDM_Project
         {
             return "Temp min: " + Temp_min + " Temp max: " + Temp_max + " Descriere: " + Descriere;
         }
+
+        /*[Ignore]
+        public string ResursaFenomene
+        {
+            get
+            {
+                return Descriere.ToLower().Replace("\\s","").Trim() + ".png";
+            }
+        }*/
     }
 }

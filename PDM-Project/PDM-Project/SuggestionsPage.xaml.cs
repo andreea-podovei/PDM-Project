@@ -21,20 +21,22 @@ public partial class SuggestionsPage : ContentPage
             Debug.WriteLine(listaPrognoza[i]);
         }
 
-        HashSet<string> fenomene = new HashSet<string>();
+        HashSet<Fenomen> fenomene = new HashSet<Fenomen>(new FenomenComparer());
         foreach (Prognoza prognoza in listaPrognoza)
         {
             foreach (PrognozaPeZi prognozaPeZi in prognoza.PrognozaPeZi)
             {
-                fenomene.Add(prognozaPeZi.Descriere);
+                Fenomen fenomen = new Fenomen();
+                fenomen.FenomenDescriere = prognozaPeZi.Descriere;
+                fenomene.Add(fenomen);
             }
 
         }
 
         
-        foreach (string fenomen in fenomene)
+        foreach (Fenomen fen in fenomene)
         {
-            Debug.WriteLine(fenomen + " ,");
+            Debug.WriteLine(fen.ResursaFenomen + " ,");
         }
 
         listViewFenomene.ItemsSource = fenomene;

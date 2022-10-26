@@ -81,18 +81,6 @@ build_metadata.AdditionalFiles.ManifestResourceName = PDM_Project.Resources.Styl
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/Marisa/Desktop/Aplicatie vreme maui/PDM-Project/PDM-Project/PDM-Project/ResultPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = PDM_Project.ResultPage.xaml
-build_metadata.AdditionalFiles.TargetPath = ResultPage.xaml
-build_metadata.AdditionalFiles.RelativePath = ResultPage.xaml
-
-[C:/Users/Marisa/Desktop/Aplicatie vreme maui/PDM-Project/PDM-Project/PDM-Project/SearchPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = PDM_Project.SearchPage.xaml
-build_metadata.AdditionalFiles.TargetPath = SearchPage.xaml
-build_metadata.AdditionalFiles.RelativePath = SearchPage.xaml
-
 [C:/Users/Marisa/Desktop/Aplicatie vreme maui/PDM-Project/PDM-Project/PDM-Project/StatisticsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PDM_Project.StatisticsPage.xaml

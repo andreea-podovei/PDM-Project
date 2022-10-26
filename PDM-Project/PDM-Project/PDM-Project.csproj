@@ -49,6 +49,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\cervariabil.png" />
 	  <None Remove="Resources\Images\hightemperature.png" />
 	  <None Remove="Resources\Images\lowtemperature.png" />
 	</ItemGroup>
