@@ -30,10 +30,10 @@
                     <ViewCell>
                         <HorizontalStackLayout Padding="8">
                             <Label VerticalOptions="Center" Text="{Binding Oras}"/>
-                            <Label VerticalOptions="Center" Text="{Binding Data, StringFormat='{0}'}"/>
-                            <Label VerticalOptions="Center" Text="{Binding Minim, StringFormat='{0}'}"/>
-                            <Label VerticalOptions="Center" Text="{Binding Maxim, StringFormat='{0}'}"/>
-                            <Label VerticalOptions="Center" Text="{Binding Descriere}"/>
+                            <Label HorizontalOptions="Center" Text="{Binding Data, StringFormat='{0}'}"/>
+                            <Label HorizontalOptions="Center" Text="{Binding Minim, StringFormat='{0}'}"/>
+                            <Label HorizontalOptions="Center" Text="{Binding Maxim, StringFormat='{0}'}"/>
+                            <Label HorizontalOptions="Center" Text="{Binding Descriere}"/>
                         </HorizontalStackLayout>
                     </ViewCell>
                 </DataTemplate>

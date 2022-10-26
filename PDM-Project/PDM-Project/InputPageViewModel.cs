@@ -12,6 +12,7 @@ namespace PDM_Project
 	internal class InputPageViewModel : INotifyPropertyChanged
 	{  
 		public List<Prognoza> ListPrognoza { get; set; }
+		public List<PrognozaPeZi> ListPrognozaPeZi { get; set; }
 
 		//SelectedItem
 		public Prognoza PrognozaSursa { get; set; }
@@ -21,18 +22,10 @@ namespace PDM_Project
 		public ICommand SearchCommand { get; set; }
 
 		public InputPageViewModel(){
-			//this.ListPrognoza = new DaoPrognoza().ObtinePrognozaDinData(DateTime.Now.AddDays(-1));
-			//this.ListPrognoza = new DaoPrognoza().ObtinePrognozaDinData(DateTime.Parse("2022-10-13"));
 			this.ListPrognoza = new DaoPrognoza().ObtineToateInregistrarile();
-			this.ListPrognoza.Add(new Prognoza() { Oras = "Bucuresti"});
-			this.ListPrognoza.Add(new Prognoza() { Oras = "Brasov"});
-			
+			//this.ListPrognozaPeZi = new DaoPrognoza().ObtineToateInregistrarilePeZi();			
 		}
 
-		private void DisplayAlert(string v1, object value, string v2)
-		{
-			throw new NotImplementedException();
-		}
 
 		public event PropertyChangedEventHandler PropertyChanged;
 

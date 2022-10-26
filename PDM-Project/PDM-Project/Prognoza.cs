@@ -15,7 +15,6 @@ namespace PDM_Project
 		public int Id { get; set; }	
 		public string Oras { get; set; }
 		public DateTime DataPrognoza { get; set; }
-
 		[OneToMany]
 		public List<PrognozaPeZi> PrognozaPeZi { get; set; }
 
@@ -23,6 +22,7 @@ namespace PDM_Project
 		{
 			StringBuilder sb = new StringBuilder();
 			sb.Append("Oras: " + Oras + " " + DataPrognoza);
+			//?? Eroare null exp -> smr daca stiu de ce
 		/*	foreach (PrognozaPeZi zi in PrognozaPeZi)
 			{
 				sb.Append("[" + zi.ToString() + "], ");

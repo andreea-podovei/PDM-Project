@@ -38,7 +38,7 @@ namespace PDM_Project
 
 		public List<Prognoza> ObtineToateInregistrarile()
 		{
-			return conn.Query<Prognoza>("SELECT * FROM Prognoza");
+			return conn.Query<Prognoza>("SELECT * FROM Prognoza p JOIN PrognozaPeZi z ON p.Id = z.Id");
 		}
 		
 		public List<PrognozaPeZi> ObtineToateInregistrarilePeZi()

@@ -3,10 +3,20 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PDM_Project.OutputPage"
              Title="OutputPage">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+
+    <ListView       
+            x:Name="listViewPrognozaPeZi"
+            Grid.Row="2"
+             Grid.RowSpan="3">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <HorizontalStackLayout Padding="8">
+                        <Label VerticalOptions="Center" Text="{Binding Oras}"/>
+                        <Label VerticalOptions="Center" Text="{Binding Descriere}"/>
+                    </HorizontalStackLayout>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
 </ContentPage>

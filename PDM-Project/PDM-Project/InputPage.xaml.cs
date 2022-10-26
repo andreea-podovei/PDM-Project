@@ -3,6 +3,7 @@ namespace PDM_Project;
 public partial class InputPage : ContentPage
 {
 	List<Prognoza> listaPrognoza = new List<Prognoza>();
+	List<PrognozaPeZi> listaPrognozaPeZi = new List<PrognozaPeZi>();
 	bool prognozaInitializat = false;
 
 	public InputPage()
@@ -10,7 +11,9 @@ public partial class InputPage : ContentPage
 		InitializeComponent();
 
 		BindingContext = new InputPageViewModel();
+
 		pickerOras.SelectedIndex = 0;
+
 		listViewPrognoza.ItemsSource = listaPrognoza;
 	}
 	protected override async void OnAppearing()
@@ -18,8 +21,8 @@ public partial class InputPage : ContentPage
 		DaoPrognoza daoPrognoza = new DaoPrognoza();
 		if (!prognozaInitializat)
 		{
-			//listaPrognoza = daoPrognoza.ObtinePrognozaDinData(DateTime.Parse("2022-10-13"));
 			listaPrognoza = daoPrognoza.ObtineToateInregistrarile();
+			//listaPrognozaPeZi = daoPrognoza.ObtineToateInregistrarilePeZi();
 			prognozaInitializat = true;
 
 		}
@@ -31,7 +34,7 @@ public partial class InputPage : ContentPage
 
 			for (int i = 1; i <= listaPrognoza.Count; i++)
 			{
-				foreach (PrognozaPeZi prognozaPeZi in listaPrognoza[i - 1])
+				foreach (PrognozaPeZi prognozaPeZi in listaPrognoza[i - 1].PrognozaPeZi)
 				{
 					prognozaPeZi.Id = listaPrognoza[i - 1].Id;
 				}
@@ -46,6 +49,7 @@ public partial class InputPage : ContentPage
 		}
 
 		listViewPrognoza.ItemsSource = listaPrognoza;
+		//listViewPrognoza.ItemsSource = listaPrognozaPeZi;
 	}
 
 	private void listViewPrognoza_ItemSelected(object sender, SelectedItemChangedEventArgs e)
