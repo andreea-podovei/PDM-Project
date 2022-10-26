@@ -14,7 +14,7 @@ namespace PDM_Project
         {
             get
             {
-                return FenomenDescriere.ToLower().Replace(" ", "").Trim() + ".png";
+                return FenomenDescriere.ToLower().Replace(" ", "").Replace(",", "").Trim() + ".png";
             }
         }
 
@@ -23,15 +23,6 @@ namespace PDM_Project
             return FenomenDescriere;
         }
 
-        public override bool Equals(object obj)
-        {
-            return this.Equals(obj as Fenomen);
-        }
-
-        private bool Equals (Fenomen fenomen)
-        {
-            return this.FenomenDescriere == fenomen.FenomenDescriere;
-        }
     }
     
 }
