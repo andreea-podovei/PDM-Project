@@ -45,9 +45,7 @@ public partial class SuggestionsPage : ContentPage
     
     private void listViewItemSelected(object sender, SelectedItemChangedEventArgs e)
     {
-        //DisplayAlert("Activități", (e.SelectedItem as string), "ok");
-
-        switch (e.SelectedItem as string)
+        switch ((e.SelectedItem as Fenomen).FenomenDescriere)
         {
             
             case "CER VARIABIL":

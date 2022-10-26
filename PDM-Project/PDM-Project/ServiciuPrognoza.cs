@@ -41,7 +41,6 @@ namespace PDM_Project
 
                         innerReader.ReadToFollowing("DataPrognozei");
                         await innerReader.ReadAsync();
-                        //Debug.WriteLine(inner.Value);
                         prognoza.DataPrognoza = DateTime.Parse(innerReader.Value);
                         Debug.WriteLine(prognoza.DataPrognoza);
 
@@ -83,7 +82,6 @@ namespace PDM_Project
 
                 }
                 
-
             }
 
             xmlReader.Close();

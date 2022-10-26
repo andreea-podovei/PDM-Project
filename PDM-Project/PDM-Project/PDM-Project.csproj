@@ -49,9 +49,17 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\cermaimultnorosploaieslaba.png" />
+	  <None Remove="Resources\Images\cermaimultsenin.png" />
+	  <None Remove="Resources\Images\cerpartialnoros.png" />
+	  <None Remove="Resources\Images\certemporarnorosploaieslaba.png" />
 	  <None Remove="Resources\Images\cervariabil.png" />
 	  <None Remove="Resources\Images\hightemperature.png" />
 	  <None Remove="Resources\Images\lowtemperature.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
 	</ItemGroup>
 
 	<ItemGroup>

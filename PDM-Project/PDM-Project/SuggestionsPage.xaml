@@ -5,34 +5,27 @@
              Title="SuggestionsPage">
     <VerticalStackLayout>
         <Label 
-            Text="Sugestii de activități în funcție de vreme"
+            Text="Sugestii de activități în funcție de vreme" 
+            FontSize="Title"
+            TextColor="MidnightBlue"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
 
         <ListView
-                    x:Name="listViewFenomene"
-                     HorizontalOptions="Center" ItemSelected="listViewItemSelected" VerticalOptions="Center">
+            x:Name="listViewFenomene"
+            HorizontalOptions="Center" ItemSelected="listViewItemSelected" VerticalOptions="Center">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
 
                         <HorizontalStackLayout Padding="8">
-
-
-
                             <Image Source="{Binding ResursaFenomen}" WidthRequest="65"/>
-
                             <Label Text="{Binding FenomenDescriere}" VerticalOptions="Center" HorizontalOptions="Center"/>
-                        
-
                         </HorizontalStackLayout>
 
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
-
-
-
         </ListView>
 
     </VerticalStackLayout>
