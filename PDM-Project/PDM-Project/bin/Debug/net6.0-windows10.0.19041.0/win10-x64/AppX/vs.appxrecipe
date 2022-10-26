@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-10-25T20:33:40.182</Modified>
+      <Modified>2022-10-26T09:33:51.195</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-10-25T20:33:39.386</Modified>
+      <Modified>2022-10-26T09:33:50.757</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\PDM-Project.runtimeconfig.json">
       <PackagePath>PDM-Project.runtimeconfig.json</PackagePath>
-      <Modified>2022-10-23T19:17:50.721</Modified>
+      <Modified>2022-10-26T09:04:06.729</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\PDM-Project.dll">
       <PackagePath>PDM-Project.dll</PackagePath>
-      <Modified>2022-10-25T20:33:37.833</Modified>
+      <Modified>2022-10-26T09:33:49.539</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>PDM-Project.exe</PackagePath>
-      <Modified>2022-10-25T20:33:37.864</Modified>
+      <Modified>2022-10-26T09:33:49.570</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.9\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1087,7 +1087,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\PDM-Project.deps.json">
       <PackagePath>PDM-Project.deps.json</PackagePath>
-      <Modified>2022-10-25T20:33:40.011</Modified>
+      <Modified>2022-10-26T09:33:51.054</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\6.0.536\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -1107,203 +1107,203 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2022-10-23T18:50:04.066</Modified>
+      <Modified>2022-10-25T20:49:09.406</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2022-10-23T18:50:04.066</Modified>
+      <Modified>2022-10-25T20:49:09.406</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2022-10-23T18:50:04.066</Modified>
+      <Modified>2022-10-25T20:49:09.406</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2022-10-23T18:50:04.066</Modified>
+      <Modified>2022-10-25T20:49:09.406</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2022-10-23T18:50:04.066</Modified>
+      <Modified>2022-10-25T20:49:09.406</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
-      <Modified>2022-10-23T18:50:04.051</Modified>
+      <Modified>2022-10-25T20:49:09.390</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
-      <Modified>2022-10-23T18:50:04.051</Modified>
+      <Modified>2022-10-25T20:49:09.390</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2022-10-23T19:41:41.337</Modified>
+      <Modified>2022-10-26T09:04:04.089</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2022-10-23T19:41:41.529</Modified>
+      <Modified>2022-10-26T09:04:04.276</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2022-10-23T19:41:41.542</Modified>
+      <Modified>2022-10-26T09:04:04.292</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2022-10-23T19:41:41.552</Modified>
+      <Modified>2022-10-26T09:04:04.292</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2022-10-23T19:41:41.570</Modified>
+      <Modified>2022-10-26T09:04:04.308</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2022-10-23T19:41:41.640</Modified>
+      <Modified>2022-10-26T09:04:04.401</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2022-10-23T19:41:41.346</Modified>
+      <Modified>2022-10-26T09:04:04.105</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2022-10-23T19:41:41.350</Modified>
+      <Modified>2022-10-26T09:04:04.105</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2022-10-23T19:41:41.353</Modified>
+      <Modified>2022-10-26T09:04:04.105</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2022-10-23T19:41:41.358</Modified>
+      <Modified>2022-10-26T09:04:04.105</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2022-10-23T19:41:41.364</Modified>
+      <Modified>2022-10-26T09:04:04.120</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2022-10-23T19:41:41.414</Modified>
+      <Modified>2022-10-26T09:04:04.167</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2022-10-23T19:41:41.421</Modified>
+      <Modified>2022-10-26T09:04:04.167</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2022-10-23T19:41:41.427</Modified>
+      <Modified>2022-10-26T09:04:04.167</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2022-10-23T19:41:41.435</Modified>
+      <Modified>2022-10-26T09:04:04.183</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2022-10-23T19:41:41.453</Modified>
+      <Modified>2022-10-26T09:04:04.198</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2022-10-23T19:41:41.385</Modified>
+      <Modified>2022-10-26T09:04:04.136</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2022-10-23T19:41:41.389</Modified>
+      <Modified>2022-10-26T09:04:04.136</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2022-10-23T19:41:41.393</Modified>
+      <Modified>2022-10-26T09:04:04.151</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2022-10-23T19:41:41.397</Modified>
+      <Modified>2022-10-26T09:04:04.151</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2022-10-23T19:41:41.408</Modified>
+      <Modified>2022-10-26T09:04:04.151</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2022-10-23T19:41:41.367</Modified>
+      <Modified>2022-10-26T09:04:04.120</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2022-10-23T19:41:41.371</Modified>
+      <Modified>2022-10-26T09:04:04.120</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2022-10-23T19:41:41.374</Modified>
+      <Modified>2022-10-26T09:04:04.120</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2022-10-23T19:41:41.377</Modified>
+      <Modified>2022-10-26T09:04:04.136</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2022-10-23T19:41:41.382</Modified>
+      <Modified>2022-10-26T09:04:04.136</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2022-10-23T19:41:41.458</Modified>
+      <Modified>2022-10-26T09:04:04.198</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2022-10-23T19:41:41.465</Modified>
+      <Modified>2022-10-26T09:04:04.214</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2022-10-23T19:41:41.474</Modified>
+      <Modified>2022-10-26T09:04:04.214</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2022-10-23T19:41:41.486</Modified>
+      <Modified>2022-10-26T09:04:04.230</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2022-10-23T19:41:41.520</Modified>
+      <Modified>2022-10-26T09:04:04.261</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2022-10-23T19:41:41.338</Modified>
+      <Modified>2022-10-26T09:04:04.073</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2022-10-23T19:41:41.352</Modified>
+      <Modified>2022-10-26T09:04:04.089</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2022-10-23T19:41:41.367</Modified>
+      <Modified>2022-10-26T09:04:04.105</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2022-10-23T19:41:41.391</Modified>
+      <Modified>2022-10-26T09:04:04.120</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2022-10-23T19:41:41.447</Modified>
+      <Modified>2022-10-26T09:04:04.183</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\hightemperature.scale-100.png">
       <PackagePath>hightemperature.scale-100.png</PackagePath>
-      <Modified>2022-10-23T19:39:18.397</Modified>
+      <Modified>2022-10-25T20:50:04.928</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\lowtemperature.scale-100.png">
       <PackagePath>lowtemperature.scale-100.png</PackagePath>
-      <Modified>2022-10-23T19:30:01.801</Modified>
+      <Modified>2022-10-25T20:50:04.928</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather.scale-100.png">
       <PackagePath>weather.scale-100.png</PackagePath>
-      <Modified>2022-10-23T19:41:41.331</Modified>
+      <Modified>2022-10-25T21:00:29.605</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather.scale-125.png">
       <PackagePath>weather.scale-125.png</PackagePath>
-      <Modified>2022-10-23T19:41:41.337</Modified>
+      <Modified>2022-10-26T09:04:04.073</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather.scale-150.png">
       <PackagePath>weather.scale-150.png</PackagePath>
-      <Modified>2022-10-23T19:41:41.348</Modified>
+      <Modified>2022-10-26T09:04:04.089</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather.scale-200.png">
       <PackagePath>weather.scale-200.png</PackagePath>
-      <Modified>2022-10-23T19:41:41.360</Modified>
+      <Modified>2022-10-26T09:04:04.105</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\weather.scale-400.png">
       <PackagePath>weather.scale-400.png</PackagePath>
-      <Modified>2022-10-23T19:41:41.401</Modified>
+      <Modified>2022-10-26T09:04:04.151</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
