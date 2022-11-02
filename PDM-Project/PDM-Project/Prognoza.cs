@@ -4,6 +4,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -21,12 +22,13 @@ namespace PDM_Project
 		public override string ToString()
 		{
 			StringBuilder sb = new StringBuilder();
-			sb.Append("Oras: " + Oras + " " + DataPrognoza);
-			//?? Eroare null exp -> smr daca stiu de ce
-		/*	foreach (PrognozaPeZi zi in PrognozaPeZi)
-			{
-				sb.Append("[" + zi.ToString() + "], ");
-			}*/
+			sb.Append("Oras: " + Oras + " Data dorita: "  + DataPrognoza);		
+
+				foreach (PrognozaPeZi zi in PrognozaPeZi)
+				{
+					sb.Append("[" + zi.ToString() + "], ");
+				}
+						
 			return sb.ToString();
 		}
 

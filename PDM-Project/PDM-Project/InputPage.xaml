@@ -11,39 +11,41 @@
 
         <Label 
             VerticalOptions="Center"
-            Text="Cauta oras"
+            Text="Cauta prognoza meteo pe 5 zile dupa oras:"
             Grid.ColumnSpan="2" />
-
-           <Picker 
-            x:Name="pickerOras"
-            ItemsSource="{Binding ListPrognoza}"
-            SelectedItem="{Binding PrognozaSursa}"
-            Grid.Row="1"/> 
 
         <ListView       
             x:Name="listViewPrognoza"
             ItemSelected="listViewPrognoza_ItemSelected"
-            Grid.Row="2"
-             Grid.RowSpan="3">
+            Grid.Row="1"
+             Grid.RowSpan="2">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
                         <HorizontalStackLayout Padding="8">
                             <Label VerticalOptions="Center" Text="{Binding Oras}"/>
-                            <Label HorizontalOptions="Center" Text="{Binding Data, StringFormat='{0}'}"/>
-                            <Label HorizontalOptions="Center" Text="{Binding Minim, StringFormat='{0}'}"/>
-                            <Label HorizontalOptions="Center" Text="{Binding Maxim, StringFormat='{0}'}"/>
-                            <Label HorizontalOptions="Center" Text="{Binding Descriere}"/>
                         </HorizontalStackLayout>
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
 
-        <Button 
-            Text="Cauta"
-            Grid.Row="4"
-            Grid.ColumnSpan="2"
-            Command="{Binding SearchCommand}"/>
+        <!--       <ListView       
+            x:Name="listViewPrognozaTest"
+             ItemSelected="listViewPrognozaTest_ItemSelected"
+             Grid.Row="1"
+             Grid.RowSpan="2">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <HorizontalStackLayout Padding="8">
+                            <Label VerticalOptions="Center" Text="{Binding Oras}"/>
+                        </HorizontalStackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>  -->
+        
+        
     </Grid>
 </ContentPage>

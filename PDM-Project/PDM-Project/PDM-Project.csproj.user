@@ -21,9 +21,6 @@
     <MauiXaml Update="MeteoTodayPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="OutputPage.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
     <MauiXaml Update="RecordsPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

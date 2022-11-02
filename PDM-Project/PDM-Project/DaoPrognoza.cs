@@ -17,35 +17,36 @@ namespace PDM_Project
 			string caleBd = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "prognozaMeteo.db");
 				conn = new SQLiteConnection(caleBd, false);
 				conn.CreateTable<Prognoza>();				
-				conn.CreateTable<PrognozaPeZi>();				
+				conn.CreateTable<PrognozaPeZi>();					
 		}
 
-		public int AdaugaPrognoza(Prognoza prognoza)
+		public void AdaugaListaPrognoza(List<Prognoza> listaPrognoza)
 		{
-			return conn.Insert(prognoza);
-		}
-
-		public int AdaugaListaPrognoza(List<Prognoza> listaPrognoza)
-		{
-			return conn.InsertAll(listaPrognoza);
-
+			conn.InsertAll(listaPrognoza);	
+			
 		}
 		
 		public void AdaugaListaPrognozaPeZi(List<PrognozaPeZi> listaPrognozaPeZi)
 		{
 			 conn.InsertAll(listaPrognozaPeZi);
 		}
-
+		
 		public List<Prognoza> ObtineToateInregistrarile()
 		{
 			return conn.Query<Prognoza>("SELECT * FROM Prognoza p JOIN PrognozaPeZi z ON p.Id = z.Id");
 		}
 		
-		public List<PrognozaPeZi> ObtineToateInregistrarilePeZi()
+		
+		public List<Prognoza> ObtineToateInregistrarile1()
+		{
+			return conn.Query<Prognoza>("SELECT * FROM Prognoza");
+		}
+		
+		public List<PrognozaPeZi> ObtineToateInregistrarile2()
 		{
 			return conn.Query<PrognozaPeZi>("SELECT * FROM PrognozaPeZi");
 		}
-
+		
 		public List<Prognoza> ObtinePrognozaDinData(DateTime dataPrognoza)
 		{
 			//return conn.Query<Prognoza>("SELECT * FROM Prognoza WHERE date(Data) = ?", data.ToString("yyyy-MM-dd"));

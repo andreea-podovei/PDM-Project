@@ -11,16 +11,10 @@
         Route="MainPage" />
     </FlyoutItem>
 
-    <FlyoutItem Title="Filtrare vreme">
+    <FlyoutItem Title="Prezentare prognoza meteo pe 5 zile">
         <ShellContent
         ContentTemplate="{DataTemplate local:InputPage}"
         Route="InputPage" />
-    </FlyoutItem>
-
-    <FlyoutItem Title="Afisare vreme">
-        <ShellContent
-        ContentTemplate="{DataTemplate local:OutputPage}"
-        Route="OutputPage" />
     </FlyoutItem>
 
     <FlyoutItem Title="Vremea astazi">

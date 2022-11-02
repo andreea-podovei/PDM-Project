@@ -12,20 +12,10 @@ namespace PDM_Project
 	internal class InputPageViewModel : INotifyPropertyChanged
 	{  
 		public List<Prognoza> ListPrognoza { get; set; }
-		public List<PrognozaPeZi> ListPrognozaPeZi { get; set; }
-
-		//SelectedItem
-		public Prognoza PrognozaSursa { get; set; }
-
-		//Button
-		//Command
-		public ICommand SearchCommand { get; set; }
-
+	
 		public InputPageViewModel(){
-			this.ListPrognoza = new DaoPrognoza().ObtineToateInregistrarile();
-			//this.ListPrognozaPeZi = new DaoPrognoza().ObtineToateInregistrarilePeZi();			
+			//this.ListPrognoza = new DaoPrognoza().ObtineToateInregistrarile();			
 		}
-
 
 		public event PropertyChangedEventHandler PropertyChanged;
 

@@ -28,10 +28,9 @@ namespace PDM_Project
 
 		public override string ToString()
 		{
-			return "Temp min: " + Temp_min + " Temp max: " + Temp_max + " Descriere: " + Descriere;
+			return "Zi: " + Data + "Temp min: " + Temp_min + " Temp max: " + Temp_max + " Descriere: " + Descriere;
 		}
 
-		
 	}
 
 }
