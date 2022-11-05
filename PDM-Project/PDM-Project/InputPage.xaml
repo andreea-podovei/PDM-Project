@@ -29,23 +29,5 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-
-        <!--       <ListView       
-            x:Name="listViewPrognozaTest"
-             ItemSelected="listViewPrognozaTest_ItemSelected"
-             Grid.Row="1"
-             Grid.RowSpan="2">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <ViewCell>
-                        <HorizontalStackLayout Padding="8">
-                            <Label VerticalOptions="Center" Text="{Binding Oras}"/>
-                        </HorizontalStackLayout>
-                    </ViewCell>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>  -->
-        
-        
     </Grid>
 </ContentPage>
