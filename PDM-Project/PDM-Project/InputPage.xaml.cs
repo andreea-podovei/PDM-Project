@@ -6,14 +6,14 @@ public partial class InputPage : ContentPage
 {
 	List<Prognoza> listaPrognoza = new List<Prognoza>();
 	List<PrognozaPeZi> listaPrognozaPeZi = new List<PrognozaPeZi>();
-	bool prognozaInitializat = false;
+    bool prognozaInitializat = false;
 
 	public InputPage()
 	{
 		InitializeComponent();
 
 		BindingContext = new InputPageViewModel();
-	}
+    }
 
 	protected override async void OnAppearing()
 	{
@@ -59,7 +59,8 @@ public partial class InputPage : ContentPage
 					}
 				}
 
-				listViewPrognoza.ItemsSource = listaPrognoza;
+            listViewPrognoza.ItemsSource = listaPrognoza;
+
 			}
 		}
 	private void listViewPrognoza_ItemSelected(object sender, SelectedItemChangedEventArgs e)

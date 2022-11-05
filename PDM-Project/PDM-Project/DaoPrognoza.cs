@@ -53,6 +53,11 @@ namespace PDM_Project
 			return conn.Query<Prognoza>("SELECT * FROM Prognoza WHERE dataPrognoza = ?", dataPrognoza.ToString("yyyy-MM-dd"));
 		}
 
-		
-	}
+        public List<Prognoza> ObtineToateOrasele()
+        {
+            return conn.Query<Prognoza>("SELECT distinct(Oras) FROM Prognoza ");
+        }
+
+
+    }
 }

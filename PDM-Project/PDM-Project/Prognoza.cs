@@ -21,18 +21,24 @@ namespace PDM_Project
 
 		public override string ToString()
 		{
-			StringBuilder sb = new StringBuilder();
-			sb.Append("Oras: " + Oras + " Data dorita: "  + DataPrognoza);		
+            StringBuilder sb = new StringBuilder();
+            sb.Append("Oras: " + Oras + " Data dorita: " + DataPrognoza);
 
-				foreach (PrognozaPeZi zi in PrognozaPeZi)
-				{
-					sb.Append("[" + zi.ToString() + "], ");
-				}
-						
-			return sb.ToString();
+            foreach (PrognozaPeZi zi in PrognozaPeZi)
+            {
+                sb.Append("[" + zi.ToString() + "], ");
+            }
+
+            return sb.ToString();
+
+        }
+
+		public string PrognozaZiString()
+		{
+			return Oras;
 		}
 
-		public IEnumerator GetEnumerator()
+        public IEnumerator GetEnumerator()
 		{
 			return PrognozaPeZi.GetEnumerator();
 		}

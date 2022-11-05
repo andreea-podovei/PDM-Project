@@ -17,12 +17,6 @@
         Route="InputPage" />
     </FlyoutItem>
 
-    <FlyoutItem Title="Afisare vreme">
-        <ShellContent
-        ContentTemplate="{DataTemplate local:OutputPage}"
-        Route="OutputPage" />
-    </FlyoutItem>
-
     <FlyoutItem Title="Vremea astazi">
         <ShellContent
         ContentTemplate="{DataTemplate local:MeteoTodayPage}"

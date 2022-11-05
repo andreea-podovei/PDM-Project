@@ -3,10 +3,84 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PDM_Project.AboutPage"
              Title="AboutPage">
-    <VerticalStackLayout>
+    <VerticalStackLayout >
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="Am construit o aplicatie care nu doar sa te informeze cu privire la prognoza meteo!"
             VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            HorizontalOptions="Center"
+            FontSize="Medium"
+            FontAttributes="Bold"
+            Margin="100,10"
+            HorizontalTextAlignment="Center"
+            TextColor="RoyalBlue"
+            
+            />
+        <Label 
+            Text="Daca esti o persoana activa, aici poti descoperi ce activitati se potrivesc conditiilor meteorologice curente, iar daca te asemeni mai mult cu noi, afla ceva nou si azi aruncand un ochi peste recordurile si statisticile noastre!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            FontSize="Medium"
+            FontAttributes="Bold"
+            Margin="10,10"
+            HorizontalTextAlignment="Center"
+            TextColor="CornflowerBlue"
+            
+            />
+        <Label 
+            Text="Afla si ce spun membrii echipei:"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            FontSize="Small"
+            FontAttributes="Bold"
+            Margin="20,10"
+            HorizontalTextAlignment="Center"
+            TextColor="CornflowerBlue"
+            
+            />
+
+        <HorizontalStackLayout HorizontalOptions="Center" Margin="30,15">
+
+            <RadioButton Content="Brezoi Iulia-Stefania"
+             GroupName="echipa" 
+              Margin="20"
+                         FontAttributes="Bold"
+                         CheckedChanged="RadioButton_CheckedChanged"
+                     />
+            <RadioButton Content="Nitescu Marisa"
+             GroupName="echipa" 
+                          Margin="20"
+                          FontAttributes="Bold"
+                          CheckedChanged="RadioButton_CheckedChanged"/>
+            <RadioButton Content="Podovei Andreea"
+             GroupName="echipa" 
+                          Margin="20"
+                          FontAttributes="Bold"
+                          CheckedChanged="RadioButton_CheckedChanged"/>
+            <RadioButton Content="Stoica Radu"
+             GroupName="echipa" 
+                          Margin="20"
+                          FontAttributes="Bold"
+                          CheckedChanged="RadioButton_CheckedChanged"/>
+            <RadioButton Content="Talaba Adina"
+             GroupName="echipa" 
+                          Margin="20"
+                          FontAttributes="Bold"
+                          CheckedChanged="RadioButton_CheckedChanged"/>
+        </HorizontalStackLayout>
+
+
+        <Label 
+            Text=""
+            x:Name="labelDespre"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            FontSize="Small"
+            FontAttributes="Bold"
+            Margin="30,10"
+            HorizontalTextAlignment="Center"
+            TextColor="RoyalBlue"
+            
+            />
+
     </VerticalStackLayout>
 </ContentPage>

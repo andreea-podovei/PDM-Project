@@ -50,6 +50,7 @@ namespace PDM_Project
                             
                             Debug.WriteLine(innerReader.Name);
                             prognozaPeZi.Data = DateTime.Parse(innerReader["data"]);
+                            prognozaPeZi.DataString = prognozaPeZi.Data.ToString();
                             Debug.WriteLine(prognozaPeZi.Data);
 
                             innerReader.ReadToDescendant("temp_min");
