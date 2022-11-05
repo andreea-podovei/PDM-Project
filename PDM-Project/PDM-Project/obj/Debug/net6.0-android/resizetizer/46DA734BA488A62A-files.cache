@@ -1,4 +1,11 @@
-﻿obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\dotnet_bot.png
+﻿obj\Debug\net6.0-android\resizetizer\r\drawable\cermaimultnorosploaieslaba.png
+obj\Debug\net6.0-android\resizetizer\r\drawable\cermaimultsenin.png
+obj\Debug\net6.0-android\resizetizer\r\drawable\cerpartialnoros.png
+obj\Debug\net6.0-android\resizetizer\r\drawable\certemporarnorosploaieslaba.png
+obj\Debug\net6.0-android\resizetizer\r\drawable\cervariabil.png
+obj\Debug\net6.0-android\resizetizer\r\drawable\hightemperature.png
+obj\Debug\net6.0-android\resizetizer\r\drawable\lowtemperature.png
+obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\dotnet_bot.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\splash.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\dotnet_bot.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\splash.png

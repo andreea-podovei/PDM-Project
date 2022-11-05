@@ -1,12 +1,30 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:PDM_Project"
              x:Class="PDM_Project.ForecastPage"
              Title="ForecastPage">
+    <ContentPage.BindingContext>
+        <local:PickerCityModel></local:PickerCityModel>
+    </ContentPage.BindingContext>
     <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        <Picker x:Name="pickerCity" 
+                Title="Selecteaza un oras"
+                ItemsSource="{Binding Orase}"
+                SelectedItem="{Binding SelectedCity}"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center"
+                Margin="20"/>
+        <Picker x:Name="pickerDate"
+                Title="Selecteaza o data"
+                ItemsSource="{Binding Dates}"
+                SelectedItem="{Binding SelectedDate}"
+                ItemDisplayBinding="{Binding DataString}"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center"
+                Margin="20"/>
+        <Label Text="{Binding SelectedDate.Descriere}"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"/>
     </VerticalStackLayout>
 </ContentPage>
