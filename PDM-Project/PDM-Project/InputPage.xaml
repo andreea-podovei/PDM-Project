@@ -11,41 +11,23 @@
 
         <Label 
             VerticalOptions="Center"
-            Text="Cauta oras"
+            Text="Cauta prognoza meteo pe 5 zile dupa oras:"
             Grid.ColumnSpan="2" />
-
-        <!--   <Picker 
-            x:Name="pickerOras"
-            ItemsSource="{Binding ListPrognoza}"
-            SelectedItem="{Binding PrognozaSursa}"
-            Grid.Row="1"/> -->
-
-        <Entry 
-            x:Name="entryValoare"
-            Text="{Binding Valoare}"
-            Grid.Row="1"
-            Keyboard="Text"/>
 
         <ListView       
             x:Name="listViewPrognoza"
             ItemSelected="listViewPrognoza_ItemSelected"
-            Grid.Row="2"
-             Grid.RowSpan="3">
+            Grid.Row="1"
+             Grid.RowSpan="2">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
                         <HorizontalStackLayout Padding="8">
-                            <Label VerticalOptions="Center"/>
+                            <Label VerticalOptions="Center" Text="{Binding Oras}"/>
                         </HorizontalStackLayout>
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-
-        <Button 
-            Text="Cauta"
-            Grid.Row="4"
-            Grid.ColumnSpan="2"
-            Command="{Binding SearchCommand}"/>
     </Grid>
 </ContentPage>

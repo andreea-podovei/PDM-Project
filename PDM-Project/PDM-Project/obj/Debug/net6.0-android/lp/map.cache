@@ -156,3 +156,8 @@ glide.aar
 GoogleGson.aar
 Xamarin.Google.Crypto.Tink.Android.aar
 SQLitePCLRaw.lib.e_sqlite3.android.dll
+Microcharts.Droid.dll
+SkiaSharp.dll
+SkiaSharp.Views.Android.dll
+SkiaSharp.Views.Maui.Controls.dll
+SkiaSharp.Views.Maui.Core.dll

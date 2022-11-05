@@ -714,3 +714,27 @@ C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project
 C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\cermaimultnorosploaieslaba.scale-100.png
 C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\cermaimultsenin.scale-100.png
 C:\Users\Marisa\Desktop\Aplicatie vreme maui\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\certemporarnorosploaieslaba.scale-100.png
+C:\Users\Andreea\Documents\MASTER\AN 2 - SEM 1\PDM-Project\PDM-Project\PDM-Project\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microcharts.dll
+C:\Users\Andreea\Documents\MASTER\AN 2 - SEM 1\PDM-Project\PDM-Project\PDM-Project\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Newtonsoft.Json.dll
+C:\Users\Andreea\Documents\MASTER\AN 2 - SEM 1\PDM-Project\PDM-Project\PDM-Project\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SkiaSharp.dll
+C:\Users\Andreea\Documents\MASTER\AN 2 - SEM 1\PDM-Project\PDM-Project\PDM-Project\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SkiaSharp.Views.Maui.Controls.dll
+C:\Users\Andreea\Documents\MASTER\AN 2 - SEM 1\PDM-Project\PDM-Project\PDM-Project\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SkiaSharp.Views.Maui.Core.dll
+C:\Users\Andreea\Documents\MASTER\AN 2 - SEM 1\PDM-Project\PDM-Project\PDM-Project\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SkiaSharp.Views.Windows.dll
+C:\Users\Andreea\Documents\MASTER\AN 2 - SEM 1\PDM-Project\PDM-Project\PDM-Project\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SQLite-net.dll
+C:\Users\Andreea\Documents\MASTER\AN 2 - SEM 1\PDM-Project\PDM-Project\PDM-Project\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SQLiteNetExtensions.dll
+C:\Users\Andreea\Documents\MASTER\AN 2 - SEM 1\PDM-Project\PDM-Project\PDM-Project\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Andreea\Documents\MASTER\AN 2 - SEM 1\PDM-Project\PDM-Project\PDM-Project\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.nativelibrary.dll
+C:\Users\Andreea\Documents\MASTER\AN 2 - SEM 1\PDM-Project\PDM-Project\PDM-Project\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.core.dll
+C:\Users\Andreea\Documents\MASTER\AN 2 - SEM 1\PDM-Project\PDM-Project\PDM-Project\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\Andreea\Documents\MASTER\AN 2 - SEM 1\PDM-Project\PDM-Project\PDM-Project\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\libSkiaSharp.dll
+C:\Users\Andreea\Documents\MASTER\AN 2 - SEM 1\PDM-Project\PDM-Project\PDM-Project\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\e_sqlite3.dll
+C:\Users\Andreea\Documents\MASTER\AN 2 - SEM 1\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\cermaimultnorosploaieslaba.scale-100.jpg
+C:\Users\Andreea\Documents\MASTER\AN 2 - SEM 1\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\cermaimultnorosploaieslaba.scale-100.png
+C:\Users\Andreea\Documents\MASTER\AN 2 - SEM 1\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\cermaimultsenin.scale-100.jpg
+C:\Users\Andreea\Documents\MASTER\AN 2 - SEM 1\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\cermaimultsenin.scale-100.png
+C:\Users\Andreea\Documents\MASTER\AN 2 - SEM 1\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\cerpartialnoros.scale-100.png
+C:\Users\Andreea\Documents\MASTER\AN 2 - SEM 1\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\certemporarnorosploaieslaba.scale-100.jpg
+C:\Users\Andreea\Documents\MASTER\AN 2 - SEM 1\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\certemporarnorosploaieslaba.scale-100.png
+C:\Users\Andreea\Documents\MASTER\AN 2 - SEM 1\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\cervariabil.scale-100.png
+C:\Users\Andreea\Documents\MASTER\AN 2 - SEM 1\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\hightemperature.scale-100.png
+C:\Users\Andreea\Documents\MASTER\AN 2 - SEM 1\PDM-Project\PDM-Project\PDM-Project\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\lowtemperature.scale-100.png

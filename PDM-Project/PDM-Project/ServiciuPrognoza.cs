@@ -21,7 +21,7 @@ namespace PDM_Project
 
 			Debug.WriteLine("In serviciu prognoza");
 
-			XmlReader xmlReader = XmlReader.Create("file:///C:/Users/Marisa/Desktop/prognoza-orase-5zile.xml", settings);
+			XmlReader xmlReader = XmlReader.Create("file:///C:/Users/Andreea/Downloads/prognoza-orase-5zile.xml", settings);
 
             while (await xmlReader.ReadAsync())
             {
