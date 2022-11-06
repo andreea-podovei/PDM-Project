@@ -27,6 +27,13 @@ namespace PDM_Project
 		{
 		}
 
+		public PrognozaPeZi(int temp_min)
+		{
+			Temp_min = temp_min;
+		}
+
+
+
 		public override string ToString()
 		{
 			return "Zi: " + Data + "Temp min: " + Temp_min + " Temp max: " + Temp_max + " Descriere: " + Descriere;
@@ -44,6 +51,13 @@ namespace PDM_Project
             return "Pentru ziua: " + Data + ", temperatura minima va fi: " + tempMinF + ", temperatura maxima va fi: " + tempMaxF + " si se asteapta: " + Descriere;
 
         }
+
+		public float GetTempMedie(int tempMin, int tempMax)
+		{
+			float tempMedie = 0;
+			tempMedie = (tempMin + tempMax) / 2;
+			return tempMedie;
+		}
 
     }
 

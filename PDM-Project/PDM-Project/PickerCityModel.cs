@@ -3,12 +3,15 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
+using System.Security.Cryptography;
+using System.Linq;
 
 namespace PDM_Project
 {
     public class PickerCityModel : INotifyPropertyChanged
     {
         Dictionary<string, List<PrognozaPeZi>> dictPrognoza = new Dictionary<string, List<PrognozaPeZi>>();
+        
 
         protected void RaisePropertyChanged([CallerMemberName] string propertyName = "")
         {
@@ -51,7 +54,9 @@ namespace PDM_Project
             {
                 Orase.Add(prognoza.Oras);
                 dictPrognoza[prognoza.Oras] = prognoza.PrognozaPeZi;
+                
             }
+
         }
     }
 }

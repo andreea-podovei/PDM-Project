@@ -5,7 +5,7 @@
              x:Class="PDM_Project.GraphicPage"
              Title="GraphicPage">
     <VerticalStackLayout>
-        <Label Text="Reprezentare grafică a temperaturilor în județul Arad" HorizontalTextAlignment="Center" FontSize="Medium"/>
+        <Label Text="Reprezentare grafică a temperaturilor în județul Arad" HorizontalTextAlignment="Center" FontSize="Medium"  TextColor="DarkBlue"/>
         <localWs:ChartView x:Name="chartView" VerticalOptions="FillAndExpand" WidthRequest="600" HeightRequest="300"/> 
     </VerticalStackLayout>
 </ContentPage>

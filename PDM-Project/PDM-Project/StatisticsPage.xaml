@@ -5,8 +5,29 @@
              Title="StatisticsPage">
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="Verifica temperaturile medii ale perioadei 13 - 17 Octombrie 2022"
             VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            HorizontalOptions="Center" 
+            TextColor="DarkBlue"
+            FontSize="Medium"/>
+
+        <Picker  
+           x:Name="pickerOras"
+            ItemsSource="{Binding listaPrognoza}"
+            VerticalOptions="Center" 
+             HorizontalOptions="Center" 
+                Margin="20"/>
+        <Button Text="Calculeaza temperatura medie"
+            Clicked="Button_Clicked"
+                BackgroundColor="Aquamarine"
+                TextColor="Black"
+                Margin="10"
+                />
+        <Label   
+            x:Name="labelTempMedie"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            FontAttributes="Bold"
+            TextColor="DarkBlue"/>
     </VerticalStackLayout>
 </ContentPage>

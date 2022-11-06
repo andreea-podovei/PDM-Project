@@ -18,9 +18,6 @@ public partial class ForecastPage : ContentPage
 
     }
 
-    
-
-
     protected override async void OnAppearing()
     {
         DaoPrognoza daoPrognoza = new DaoPrognoza();
